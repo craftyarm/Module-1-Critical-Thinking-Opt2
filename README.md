@@ -1,15 +1,44 @@
-Option #2: List Restaurant Name and Address Information
-Demonstrate understanding of basic programming concepts by:
+# CSC320-1 Restaurant Information
 
-Developing pseudocode that prints the following information for a restaurant in your city:
-Restaurant name
-Business address
-City, State, Zip code
-Creating a simple java application that will print the items listed above in the same format.
-Compile and submit your pseudocode, source code, and screenshots of the application executing the application, the results and GIT repository in a single document.
+A simple Java application that prints the name and address information of **Muracci's Japanese Curry & Grill** in San Francisco.  **Option #2**: listing a restaurant's information.
 
-* Pseudocode for Restaurant Info Program (Option #2)
+---
 
-Print "Restaurant Name: Muracci's Japanese Curry & Grill"
-Print "Business Address: 307 Kearny Street"
-Print "City, State, Zip Code: San Francisco, CA 94108"
+## Table of Contents
+
+1. [Overview](#overview)  
+2. [Pseudocode](#pseudocode)  
+3. [Source Code](#source-code)  
+
+---
+
+## Overview
+
+This program demonstrates basic Java concepts by printing static information about a restaurant. 
+
+---
+
+## Pseudocode
+
+```txt
+BEGIN RestaurantInfo
+
+1. Print "Restaurant Name: Muracci's Japanese Curry & Grill"
+2. Print "Business Address: 307 Kearny Street"
+3. Print "City, State, Zip Code: San Francisco, CA 94108"
+
+END RestaurantInfo
+```
+
+## source-code
+
+```txt
+public class RestaurantInfo {
+    public static void main(String[] args) {
+        System.out.println("----- Restaurant Information -----");
+        System.out.println("Restaurant Name: Muracci's Japanese Curry & Grill");
+        System.out.println("Business Address: 307 Kearny Street");
+        System.out.println("City, State, Zip Code: San Francisco, CA 94108");
+    }
+}
+```
